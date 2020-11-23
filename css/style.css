@@ -15,7 +15,7 @@
 .debug .row {
   width: 80%;
   height: 200px;
-  background-color: red;
+  background-color: black;
 }
 
 .mg-center{
@@ -57,4 +57,22 @@
 .header-jumbo .container .row [class*="col-"]{
   height: 400px;
   background-color: red;
+}
+
+
+/* inizio main */
+
+#portfolio{
+  margin-bottom: 15px;
+}
+
+#portfolio .container .row:first-child  [class*="col-"]{
+  height: 150px;
+  background-color: yellow;
+}
+
+#portfolio .container .row  [class*="col-"] img{
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
