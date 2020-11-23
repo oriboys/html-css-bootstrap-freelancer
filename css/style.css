@@ -33,7 +33,7 @@
 /* header-top */
 
 .header-top{
-  height: 100px;
+  /* height: 100px; */
   background-color: rgb(3, 52, 102);
 }
 
@@ -50,7 +50,7 @@
 
 
 .header-jumbo{
-  height: 400px;
+  /* height: 400px; */
   background-color: rgb(0, 252, 139);
 }
 
@@ -83,7 +83,7 @@
 /* inizio about */
 
 #about {
-  height: 400px;
+  /* height: 400px; */
   background-color: rgb(0, 252, 139);
 }
 #about .container .row [class*="col-"]:first-child{
@@ -99,4 +99,55 @@
 #about .container .row [class*="col-"]:nth-child(3){
   height: 250px;
   background-color: blue;
+}
+
+
+/* inizio contact */
+
+/* #contact {
+  height: 550px;
+} */
+
+#contact .container .row [class*="col-"]:first-child{
+  height: 200px;
+  background-color: red;
+}
+
+#contact .container .row [class*="col-"]:nth-child(2){
+  height: 350px;
+  background-color: yellow;
+}
+
+/* footer */
+
+/* footer-top */
+.footer-top{
+  height: 200px;
+  background-color: rgb(13, 86, 172);
+}
+.footer-top .container .row [class*="col-"]:first-child{
+  height: 200px;
+  background-color: pink;
+}
+
+.footer-top .container .row [class*="col-"]:nth-child(2){
+  height: 200px;
+  background-color: blue;
+}
+
+.footer-top .container .row [class*="col-"]:nth-child(3){
+  height: 200px;
+  background-color: green;
+}
+
+/* footer-bottom */
+
+.footer-bottom{
+  height: 100px;
+  background-color: rgb(3, 52, 102);
+}
+
+.footer-bottom .container .row [class*="col-"]{
+  height: 100px;
+  background-color: coral;
 }
