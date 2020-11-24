@@ -48,6 +48,10 @@
   color: white;
 }
 
+.header-top .container .row [class*="col-"] ul li a:hover{
+  color: grey;
+}
+
 .header-top .container .row [class*="col-"] ul li {
   padding-right: 15px;
 }
@@ -96,6 +100,21 @@
 .header-jumbo .container .row [class*="col-"]{
   height: 400px;
   background-color: red;
+}
+
+.header-jumbo .container .row [class*="col-"] .star:after,
+.header-jumbo .container .row [class*="col-"] .star:before{
+  content: '';
+  display: inline-block;
+  height: 5px;
+  width: 15%;
+  background-color: white;
+  border-radius: 5px;
+}
+.header-jumbo .container .row [class*="col-"] .star i{
+  vertical-align: middle;
+  font-size: 35px;
+  color: white;
 }
 
 
