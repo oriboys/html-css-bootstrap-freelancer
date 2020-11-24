@@ -56,8 +56,12 @@
   padding-right: 15px;
 }
 
+.header-top .container .row [class*="col-"] ul {
+  padding-right: 50px;
+}
+
 .header-top .container .row [class*="col-"] div a{
-  padding-left: 15px;
+  padding-left: 50px;
 }
 
 
@@ -98,8 +102,9 @@
 }
 
 .header-jumbo .container .row [class*="col-"]{
-  height: 400px;
-  background-color: red;
+  /* height: 400px; */
+  /* background-color: red; */
+  color: white;
 }
 
 .header-jumbo .container .row [class*="col-"] .star:after,
@@ -114,7 +119,27 @@
 .header-jumbo .container .row [class*="col-"] .star i{
   vertical-align: middle;
   font-size: 35px;
-  color: white;
+  /* color: white; */
+}
+
+.header-jumbo .container .row [class*="col-"] .star{
+  padding-bottom: 15px;
+}
+
+.header-jumbo .container .row [class*="col-"]  img {
+  padding-top: 40px;
+
+}
+
+.header-jumbo .container .row [class*="col-"]  h1 {
+  /* color: white; */
+
+}
+
+.header-jumbo .container .row [class*="col-"]  p {
+  padding-bottom: 30px;
+  /* color: white; */
+  font-size: 18px;
 }
 
 
