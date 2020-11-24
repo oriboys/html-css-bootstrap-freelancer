@@ -164,6 +164,7 @@
 #portfolio .container .row  [class*="col-"]{
   margin-top: 15px;
   margin-bottom: 15px;
+
 }
 
 #portfolio .container .row  [class*="col-"] img{
@@ -171,6 +172,7 @@
   z-index: 1;
   padding-left: 0;
   padding-right: 0;
+
 }
 
 #portfolio .star:after,
@@ -178,10 +180,44 @@
   background-color: rgb(3, 59, 61);
 }
 
-#portfolio a:hover{
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+
+.pstnrl{
+  position: relative;
 }
+
+.layover {
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.layover:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.layover i {
+  display: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ .layover:hover i{
+  display: block;
+
+}
+
+
+
 
 
 /* inizio about */
